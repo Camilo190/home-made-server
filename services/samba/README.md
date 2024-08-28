@@ -17,5 +17,7 @@ To install Samba on the server just type `sudo apt install samba`. Once installe
 - Set a password using `smbpasswd -a userName`
 - Restart samba service `sudo systemctl restart smbd`
 
-After that, Samba is configured and now it is time to connect from external devices. For Windows go to the **File Explorer** > **This PC**. Right click and select **Map Network Drive**, type `\\SERVER_IP\\folder` something like `\\192.168.68.133\myfiles`
-Enter username and password and now it is possible to store files on that directory.
+Samba is configured and ready to connect from external devices. For Windows go to the **File Explorer** > **This PC**. Right click and select **Map Network Drive**, type `\\SERVER_IP\\folder` something like `\\192.168.68.133\myfiles`
+<br>Enter username and password. Now it is possible to store files on that directory.
+
+<img src="images/samba.PNG" width=480 height=480>
