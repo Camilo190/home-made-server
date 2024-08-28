@@ -27,4 +27,4 @@ I want to access using Wifi, so I had to do some extra steps:
 - Use `wpa_passphrase WIFI_NETWORK PASSWORD > /etc/wifi` to save config of a network on /etc/wifi.
 - Use `wpa_supplicant -B -i WIFI_INTERFACE_NAME -D wext -c /etc/wifi` to connect.
 
-After doing all above, I have done the basics to start setting up the server!
+After doing all above, I have done the basics to start setting up the server! To do so, use **SSH** to connect to the server
