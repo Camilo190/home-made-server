@@ -27,6 +27,6 @@ services:
       - ./music:/data/music
 ``` 
 In the same directory of the docker compose file, I created a folder name Series that contains 4 episodes of season six of The Simpsons to test the service.
-Then I just run the `docker compose up` command and the service got up. <br>To enter on it just need the ip address and the port number. After creating the initial user I was able to watch the folder with The Simpsons inside
+Then just ran the `docker compose up` command and the service got up. <br>To enter, just need the ip address and the port number. When the admin user was created, I was able to watch the folder that contained The Simpsons on it.
 
 <img src="images/home-jellyfin.PNG" width=600 height=400>
